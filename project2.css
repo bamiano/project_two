@@ -1,0 +1,99 @@
+h1 {
+  font-size: 55px;
+  background: -webkit-linear-gradient(#ddd, #888);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: left;
+  padding-left: 40px;
+
+}
+
+p {
+  font-size: 30px;
+  text-align: center;
+  padding-bottom: 15px;
+  text-shadow: 1px 1px 1px #999;  
+}
+
+#cell1 { 
+  background: url(http://content.internetvideoarchive.com/content/photos/582/024479_19.jpg) no-repeat center; 
+}
+
+#cell2 { 
+  background: url(http://content.internetvideoarchive.com/content/photos/583/02448612_.jpg) no-repeat center;
+}
+
+#cell3 { 
+  background: url(http://s1.dmcdn.net/0IIG.jpg) no-repeat center;
+}
+
+#cell4 { 
+  background: url(http://content.internetvideoarchive.com/content/photos/583/620523_577.jpg) no-repeat center;
+}
+
+#cell5 { 
+  background: url(http://s1.dmcdn.net/0IJD.jpg) no-repeat center; 
+}
+
+#cell6 { 
+  background: url(http://content.internetvideoarchive.com/content/photos/582/59012413_1.jpg) no-repeat center; 
+}
+
+#cell7 { 
+  background: url(http://s3.kinostok.tv/upload/img/photos/kinostok/video/24/2483/248319/248319b.jpg) no-repeat center; 
+}
+
+#cell8 { 
+  background: url(http://content.internetvideoarchive.com/content/photos/582/23980411.jpg) no-repeat center; 
+}
+
+#cell9 { 
+  background: url(http://s1.dmcdn.net/0IJs.jpg) no-repeat center; 
+}
+
+.r1 {
+	height: 235px;
+	width: 235px;
+	-moz-box-shadow:    3px 3px 5px 6px #ccc;
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+  box-shadow:         3px 3px 5px 6px #ccc;
+}
+
+.container {
+	margin: auto;
+}
+
+table {
+	margin: auto;
+}
+
+body {
+	background-color: #2F4B5A;
+}
+
+.shadow1 {
+  margin: 40px;
+  background-color: rgb(68,68,68); /* Needed for IEs */
+
+  -moz-box-shadow: 5px 5px 5px rgba(68,68,68,0.6);
+  -webkit-box-shadow: 5px 5px 5px rgba(68,68,68,0.6);
+  box-shadow: 5px 5px 5px rgba(68,68,68,0.6);
+
+  filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius=3,MakeShadow=true,ShadowOpacity=0.30);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Blur(PixelRadius=3,MakeShadow=true,ShadowOpacity=0.30)";
+  zoom: 1;
+}
+.shadow1 .content {
+  position: relative; /* This protects the inner element from being blurred */
+  padding: 75px;
+  background-color: #dcdcc6;
+}
+
+
+
+
+
+
+
+
+
